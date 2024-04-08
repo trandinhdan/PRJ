@@ -5,11 +5,39 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Lesson 6</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            #result {
+                width: 400px;
+                height: 100px;
+                border: 1px solid #000;
+                margin-bottom: 10px;
+                font-family: monospace;
+            }
+        </style>
     </head>
     <body>
-        <div>TODO write content</div>
+        <h3>CÁC THAO TÁC VỚI MẢNG</h3>
+
+        Nhập a:
+        <input type="number" id="result" name="rs">
+
+        <div>
+            <label><input type="radio" name="action" value="enterArray"> Nhập mảng</label>
+            <label><input type="radio" name="action" value="printArray"> In mảng</label> <br><br>
+            <label><input type="radio" name="action" value="sumOdd"> Tổng lẻ</label>
+            <label><input type="radio" name="action" value="productEven"> Tích chẵn</label>
+            <label><input type="radio" name="action" value="sortArray"> Sắp xếp</label>
+        </div>
+        <br>
+        <div>
+            <button type="button">Thực hiện</button>
+            <button type="button">Thoát</button>
+        </div>
     </body>
 </html>

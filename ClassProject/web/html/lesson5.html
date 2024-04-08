@@ -5,11 +5,30 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Lesson 5</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <div>TODO write content</div>
+        <h2>THỰC HIỆN PHÉP TOÁN</h2>
+
+        <label for="numberA">Nhập a:</label>
+        <input type="number" id="numberA" name="a">
+        <a>(1 < n < 100)</a>
+        <br><br>
+        
+        <label for="operationSelect">Chọn phép toán:</label>
+        <select id="operationSelect">
+            <option value="sumConsecutive">Tổng n số liên tiếp</option>
+            <option value="calculateFactorial">Tính n!</option>
+            <option value="printOdd">In dãy lẻ</option>
+            <option value="printEven">In dãy số chẵn</option>
+            <option value="checkPrime">Kiểm tra số nguyên tố</option>
+        </select><br><br>
+        
+        <label for="result">Kết quả:</label>
+        <input type="number" id="result" name="rs"><br><br>
+
+        
     </body>
 </html>

@@ -5,11 +5,48 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Lesson 9</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     </head>
     <body>
-        <div>TODO write content</div>
+        <div class="container">
+            <h3>ĐỐI TƯỢNG STRING</h3>
+
+            <label for="textInput">Nhập đoạn văn:</label>
+            <textarea id="textInput" rows="4"></textarea>
+            <br><br>
+
+            <label for="totalChars">Tổng số ký tự:</label>
+            <input type="text" id="totalChars" readonly>
+            <br><br>
+
+            <label for="valueInput">Nhập vị trí</label>
+            <input type="text" id="valueInput">
+            <label for="charAtLocation">Ký tự tương ứng</label>
+            <input type="text" id="charAtLocation" readonly>
+            <br><br>
+            
+            <label for="substringInput">Nhập chuỗi</label>
+            <input type="text" id="substringInput">
+            <label for="substringInputLocation">Vị trí tương ứng</label>
+            <input type="text" id="substringInputLocation" readonly>
+            <br><br>
+            
+            <label for="rangeStart">Nhập vị trí tách Từ:</label>
+            <input type="text" id="rangeStart">
+            <label for="rangeEnd">Đến</label>
+            <input type="text" id="rangeEnd">
+            <label for="result">Kết quả</label>
+            <input type="text" id="result" readonly>
+            <br><br>
+            
+            <div class="form-group">
+                <button>Nhập lại</button>
+                <button>Thoát</button>
+            </div>
+        </div>
+
     </body>
 </html>
